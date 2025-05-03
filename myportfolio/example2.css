@@ -1,0 +1,17 @@
+*{
+    color: white;
+}
+#box{
+    height: 60px;
+    background-color: rgb(0, 0, 0);
+}
+#amazon{
+    color: #f08804;
+    font-size: 25px;
+}
+#button{
+    background-color: #f08804;
+}
+a{
+    margin-right: 200px;
+}

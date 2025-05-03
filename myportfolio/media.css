@@ -1,0 +1,22 @@
+div{
+
+    height: 200px;
+    width: 200px;
+    background-color: brown;
+    border: 2px solid blue;
+    position: absolute;
+    top: 200px;
+    bottom: 300px;
+    left: 200px;
+    transform:  rotate(45deg);
+}
+@media (min-width:600px) {
+    div{
+        background-color: green;
+    }
+}
+@media (min-width:200px) and (max-width:300px){
+    div{
+        background-color: blue;
+    }
+}
